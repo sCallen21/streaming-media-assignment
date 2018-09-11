@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "streaming media homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sCallen21/streaming-media-assignment.git"
+  },
+  "author": "Stephen Callen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sCallen21/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/sCallen21/streaming-media-assignment#readme",
+  "dependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
